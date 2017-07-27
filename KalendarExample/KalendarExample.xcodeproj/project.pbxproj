@@ -14,7 +14,7 @@
 		BA2D6B791F2A9D2D00EB6A85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2D6B771F2A9D2D00EB6A85 /* LaunchScreen.storyboard */; };
 		BA2D6B841F2A9D2E00EB6A85 /* KalendarExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D6B831F2A9D2E00EB6A85 /* KalendarExampleTests.swift */; };
 		BA2D6B8F1F2A9D2E00EB6A85 /* KalendarExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D6B8E1F2A9D2E00EB6A85 /* KalendarExampleUITests.swift */; };
-		BA2D6B9D1F2A9D6E00EB6A85 /* Kalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D6B9C1F2A9D6E00EB6A85 /* Kalendar.swift */; };
+		BA2D6B9D1F2A9D6E00EB6A85 /* KalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D6B9C1F2A9D6E00EB6A85 /* KalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		BA2D6B8A1F2A9D2E00EB6A85 /* KalendarExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalendarExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2D6B8E1F2A9D2E00EB6A85 /* KalendarExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalendarExampleUITests.swift; sourceTree = "<group>"; };
 		BA2D6B901F2A9D2E00EB6A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA2D6B9C1F2A9D6E00EB6A85 /* Kalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kalendar.swift; sourceTree = "<group>"; };
+		BA2D6B9C1F2A9D6E00EB6A85 /* KalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				BA2D6B6E1F2A9D2D00EB6A85 /* AppDelegate.swift */,
 				BA2D6B701F2A9D2D00EB6A85 /* ViewController.swift */,
-				BA2D6B9C1F2A9D6E00EB6A85 /* Kalendar.swift */,
+				BA2D6B9C1F2A9D6E00EB6A85 /* KalendarView.swift */,
 				BA2D6B721F2A9D2D00EB6A85 /* Main.storyboard */,
 				BA2D6B751F2A9D2D00EB6A85 /* Assets.xcassets */,
 				BA2D6B771F2A9D2D00EB6A85 /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2D6B711F2A9D2D00EB6A85 /* ViewController.swift in Sources */,
-				BA2D6B9D1F2A9D6E00EB6A85 /* Kalendar.swift in Sources */,
+				BA2D6B9D1F2A9D6E00EB6A85 /* KalendarView.swift in Sources */,
 				BA2D6B6F1F2A9D2D00EB6A85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +511,7 @@
 				BA2D6B951F2A9D2E00EB6A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA2D6B961F2A9D2E00EB6A85 /* Build configuration list for PBXNativeTarget "KalendarExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +520,7 @@
 				BA2D6B981F2A9D2E00EB6A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA2D6B991F2A9D2E00EB6A85 /* Build configuration list for PBXNativeTarget "KalendarExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +529,7 @@
 				BA2D6B9B1F2A9D2E00EB6A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
