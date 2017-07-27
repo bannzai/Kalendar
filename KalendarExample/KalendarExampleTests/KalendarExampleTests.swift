@@ -3,7 +3,7 @@
 //  KalendarExampleTests
 //
 //  Created by Yudai.Hirose on 2017/07/28.
-//  Copyright © 2017年 廣瀬雄大. All rights reserved.
+//  Copyright © 2017年 Yudai.Hirose. All rights reserved.
 //
 
 import XCTest
