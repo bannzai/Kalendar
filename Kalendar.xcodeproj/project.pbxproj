@@ -144,7 +144,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "廣瀬雄大";
+				ORGANIZATIONNAME = "Yudai.Hirose";
 				TargetAttributes = {
 					BA2D6B471F2A9D0D00EB6A85 = {
 						CreatedOnToolsVersion = 8.3.2;

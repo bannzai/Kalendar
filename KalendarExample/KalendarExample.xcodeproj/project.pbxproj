@@ -14,6 +14,7 @@
 		BA2D6B791F2A9D2D00EB6A85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2D6B771F2A9D2D00EB6A85 /* LaunchScreen.storyboard */; };
 		BA2D6B841F2A9D2E00EB6A85 /* KalendarExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D6B831F2A9D2E00EB6A85 /* KalendarExampleTests.swift */; };
 		BA2D6B8F1F2A9D2E00EB6A85 /* KalendarExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D6B8E1F2A9D2E00EB6A85 /* KalendarExampleUITests.swift */; };
+		BA2D6B9D1F2A9D6E00EB6A85 /* Kalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D6B9C1F2A9D6E00EB6A85 /* Kalendar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BA2D6B8A1F2A9D2E00EB6A85 /* KalendarExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalendarExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2D6B8E1F2A9D2E00EB6A85 /* KalendarExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalendarExampleUITests.swift; sourceTree = "<group>"; };
 		BA2D6B901F2A9D2E00EB6A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2D6B9C1F2A9D6E00EB6A85 /* Kalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kalendar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BA2D6B6E1F2A9D2D00EB6A85 /* AppDelegate.swift */,
 				BA2D6B701F2A9D2D00EB6A85 /* ViewController.swift */,
+				BA2D6B9C1F2A9D6E00EB6A85 /* Kalendar.swift */,
 				BA2D6B721F2A9D2D00EB6A85 /* Main.storyboard */,
 				BA2D6B751F2A9D2D00EB6A85 /* Assets.xcassets */,
 				BA2D6B771F2A9D2D00EB6A85 /* LaunchScreen.storyboard */,
@@ -189,7 +192,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "廣瀬雄大";
+				ORGANIZATIONNAME = "Yudai Hirose";
 				TargetAttributes = {
 					BA2D6B6A1F2A9D2D00EB6A85 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2D6B711F2A9D2D00EB6A85 /* ViewController.swift in Sources */,
+				BA2D6B9D1F2A9D6E00EB6A85 /* Kalendar.swift in Sources */,
 				BA2D6B6F1F2A9D2D00EB6A85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
