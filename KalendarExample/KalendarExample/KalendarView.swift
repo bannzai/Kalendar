@@ -22,8 +22,32 @@ public class KalendarViewFlowLayout: UICollectionViewFlowLayout {
     }
 }
 
+public protocol KalendarViewDataSource: class {
+    func headerView(for calendarView: KalendarView) -> UIView
+    func footerView(for calendarView: KalendarView) -> UIView
+}
+
+public protocol KalendarViewHeader: class {
+    var title: String { get set }
+}
+
+public protocol KalendarViewFooter: class {
+    
+}
+
 public class KalendarView: UIView {
     fileprivate let collectionView = UICollectionView(frame: .zero, collectionViewLayout: KalendarViewFlowLayout())
+    
+    fileprivate var headerView: KalendarViewHeader?
+    fileprivate var footerView: KalendarViewHeader?
+    
+    public func setup(for header: KalendarViewHeader) {
+        
+    }
+    
+    public weak var dataSource: KalendarViewDataSource? {
+        didSet { setupHeaderFooterView() }
+    }
     
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -31,6 +55,7 @@ public class KalendarView: UIView {
         collectionView.delegate = self
         collectionView.dataSource = self
     }
+    
     public override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -40,6 +65,12 @@ public class KalendarView: UIView {
     
     public override var intrinsicContentSize: CGSize {
         return CGSize(width: UIScreen.main.bounds.width - 50, height: UIScreen.main.bounds.height - 180)
+    }
+}
+
+fileprivate extension KalendarView {
+    func setupHeaderFooterView() {
+        
     }
 }
 
